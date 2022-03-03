@@ -1,0 +1,13 @@
+/* pages/gps/gps.wxss */
+.busnum{
+  background-color: #00d8a0;
+  height: 40px;
+  width: 100%;
+  margin-top: 70rpx;
+  text-align: center;
+  font-size: 40rpx;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

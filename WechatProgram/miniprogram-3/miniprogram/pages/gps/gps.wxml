@@ -1,0 +1,23 @@
+<!-- 
+longitude 经度
+latitude 纬度
+scale 缩放层级 最小5，最大18
+markers 地图标记
+bindmarkertap 点击markers时的事件
+polyline="{{polyline}}" 绘制多边形
+style
+ -->
+ 
+ <map 
+  id="map" 
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}" 
+  scale="15" 
+  markers="{{markers}}" 
+  bindmarkertap="markertap" 
+  polyline="{{polyline}}" 
+  style="width:100%;height:300px;">
+</map>
+<view class="busnum">
+  <text>当前车上人数:{{num}}</text>
+</view>
